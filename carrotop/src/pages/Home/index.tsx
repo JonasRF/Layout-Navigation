@@ -1,7 +1,9 @@
+import ButtonIcon from '../../components/ButtonIcon';
+import Navbar from '../../components/navbar';
 import { ReactComponent as MainImage } from '../assets/images/main-image.svg';
-import ButtonIcon from '../components/ButtonIcon';
 
-import Navbar from '../components/navbar';
+
+
 
 import './styles.css';
 
