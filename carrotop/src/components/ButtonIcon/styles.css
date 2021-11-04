@@ -1,0 +1,11 @@
+.btn-icon-container {
+  
+  background: #00285f;
+  border-radius: 5px;
+  padding: 12px 36px 12px 37px;
+}
+
+.btn-icon-container h6 {
+  font-size: 14px;
+  color: #fff;
+}
