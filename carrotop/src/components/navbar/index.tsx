@@ -24,10 +24,10 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="desafiolayout-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
-            <li>
+            <li className="main-menu-linkHome">
               <a href="link" className="active">Home</a>
             </li>
-            <li>
+            <li className="main-menu-linkCatalogo">
               <a href="link">Catálogo</a>
             </li>
           </ul>

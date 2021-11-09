@@ -1,6 +1,6 @@
 import ButtonIcon from '../../components/ButtonIcon';
 import Navbar from '../../components/navbar';
-import { ReactComponent as MainImage } from '../assets/images/main-image.svg';
+import  MainImage from '../../assets/images/main-image.png';
 
 
 
@@ -20,13 +20,15 @@ const Home = () => {
             </div>
           </div>
           <div className="home-image-container">
-            <MainImage />
+            <img src={MainImage} alt="Carro" />
           </div>
         </div>
         
         <div className="card-body">
             <div>
             <ButtonIcon />
+            </div>
+            <div>
               <p>Começe a navegar agora</p>
             </div>
           </div>
