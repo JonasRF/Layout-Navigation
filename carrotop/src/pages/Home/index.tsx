@@ -1,18 +1,13 @@
 import ButtonIcon from '../../components/ButtonIcon';
-import Navbar from '../../components/navbar';
 import  MainImage from '../../assets/images/main-image.png';
-
-
-
 
 import './styles.css';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container">
-        <div className="home-card">
+        <div className="base-card home-card">
           <div className="home-content-container">
             <div>
               <h1>O carro perfeito para você</h1>

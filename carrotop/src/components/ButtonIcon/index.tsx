@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 const ButtonIcon = () => {
   return (
-       <a href="link">
+       <Link to="/products">
         <button className="btn-icon-container">
           <h6>VER CATÁLOGO</h6>
         </button>
-        </a>
+        </Link>
   );
 };
 

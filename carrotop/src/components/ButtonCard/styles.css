@@ -1,0 +1,72 @@
+.btn-card-container {
+  background: #00285f;
+  border-radius: 5px;
+  padding: 10px 94px 10px;
+  margin-left: 20px;
+}
+
+.btn-card-container h6 {
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .btn-card-container {
+    width: 220px;
+    height: 40px;
+    padding-right: 80px;
+  }
+
+  .btn-card-container h6 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-card-container {
+    width: 290px;
+    height: 40px;
+    padding-right: 120px;
+  }
+
+  .btn-card-container h6 {
+    padding-left: 85px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-card-container {
+    width: 257.31px;
+    height: 40px;
+  }
+
+  .btn-card-container h6 {
+    padding-left: 65px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-card-container {
+    width: 300px;
+    height: 40px;
+  }
+
+  .btn-card-container h6 {
+    padding-left: 88px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .btn-card-container {
+    width: 260px;
+    height: 40px;
+  }
+
+  .btn-card-container h6 {
+    padding-left: 60px;
+  }
+}

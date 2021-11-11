@@ -1,0 +1,131 @@
+.card-body-catalog {
+  width: auto;
+  height: 86px;
+  display: flex;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #cac5c5;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+.input-card input {
+  width: 199px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 22px;
+}
+
+.input-card button {
+  width: 77px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  background: #00285f;
+  border-radius: 0px 5px 5px 0px;
+  margin-top: 22px;
+  margin-right: 14px;
+}
+
+.btn-card-top h6 {
+  font-size: 14px;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .card-body-catalog {
+    width: auto;
+    height: 123px;
+    margin-left: 30px;
+    margin-right: 27px;
+  }
+
+  .input-card input {
+    margin-top: 42px;
+    margin-left: 20px;
+  }
+
+  .input-card button {
+    width: 174px;
+    height: 40px;
+    margin-top: 42px;
+    margin-right: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-body-catalog {
+    width: auto;
+    height: 123px;
+    margin-left: 35px;
+    margin-right: 42px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-body-catalog {
+    width: auto;
+    height: 123px;
+    margin-left: 27px;
+    margin-right: 29px;
+  }
+
+  .input-card input {
+    margin-top: 42px;
+    margin-left: 97px;
+  }
+
+  .input-card button {
+    margin-top: 42px;
+    margin-right: 97px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-body-catalog {
+    width: auto;
+    height: 123px;
+    margin-left: 42px;
+    margin-right: 53px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-body-catalog {
+    width: auto;
+    height: 130px;
+    margin-left: 52px;
+    margin-right: 59px;
+  }
+
+  .input-card input {
+    margin-left: 120px;
+  }
+
+  .input-card button {
+    margin-right: 120px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .card-body-catalog {
+    width: auto;
+    margin-left: 100px;
+    margin-right: 108px;
+  }
+}
+
+@media (min-width: 1600px) {
+    .card-body-catalog {
+      width: auto;
+      margin-left: 152px;
+      margin-right: 158px;
+    }
+  }
